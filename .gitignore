@@ -1,18 +1,16 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Build results
+/target
+/schema
 
-# Other files and folders
-.settings/
+# Cargo+Git helper file (https://github.com/rust-lang/cargo/blob/0.44.1/src/cargo/sources/git/utils.rs#L320-L327)
+.cargo-ok
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Text file backups
+**/*.rs.bk
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# macOS
+.DS_Store
+
+# IDEs
+*.iml
+.idea
